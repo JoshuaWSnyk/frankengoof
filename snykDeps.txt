@@ -1,0 +1,226 @@
+go-goof @ 0.0.0
+   ├─ rsc.io/quote @ 1.5.2
+   │  └─ rsc.io/sampler @ 1.3.0
+   │     └─ golang.org/x/text/language @ 0.3.2
+   │        ├─ golang.org/x/text/internal/language/compact @ 0.3.2
+   │        │  └─ golang.org/x/text/internal/language @ 0.3.2
+   │        │     └─ golang.org/x/text/internal/tag @ 0.3.2
+   │        └─ golang.org/x/text/internal/language @ 0.3.2
+   │           └─ golang.org/x/text/internal/tag @ 0.3.2
+   ├─ github.com/snapcore/snapd/snap @ #5abb3aab6b74
+   │  ├─ gopkg.in/yaml.v2 @ 2.3.0
+   │  ├─ github.com/snapcore/snapd/timeutil @ #5abb3aab6b74
+   │  │  ├─ github.com/snapcore/snapd/randutil @ #5abb3aab6b74
+   │  │  ├─ github.com/snapcore/snapd/i18n @ #5abb3aab6b74
+   │  │  │  ├─ github.com/snapcore/snapd/osutil @ #5abb3aab6b74
+   │  │  │  │  ├─ gopkg.in/tomb.v2 @ #d5d1b5820637
+   │  │  │  │  ├─ golang.org/x/sys/unix @ #aa78b53d3365
+   │  │  │  │  │  └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+   │  │  │  │  ├─ github.com/snapcore/snapd/strutil @ #5abb3aab6b74
+   │  │  │  │  │  └─ gopkg.in/yaml.v2 @ 2.3.0
+   │  │  │  │  ├─ github.com/snapcore/snapd/randutil @ #5abb3aab6b74
+   │  │  │  │  └─ github.com/snapcore/snapd/osutil/sys @ #5abb3aab6b74
+   │  │  │  │     └─ golang.org/x/sys/unix @ #aa78b53d3365
+   │  │  │  │        └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+   │  │  │  ├─ github.com/snapcore/snapd/dirs @ #5abb3aab6b74
+   │  │  │  │  └─ github.com/snapcore/snapd/release @ #5abb3aab6b74
+   │  │  │  │     └─ github.com/snapcore/snapd/strutil @ #5abb3aab6b74
+   │  │  │  │        └─ gopkg.in/yaml.v2 @ 2.3.0
+   │  │  │  └─ github.com/snapcore/go-gettext @ #82bbea49e785
+   │  │  │     └─ github.com/snapcore/go-gettext/pluralforms @ #82bbea49e785
+   │  │  ├─ github.com/snapcore/snapd/dbusutil @ #5abb3aab6b74
+   │  │  │  ├─ github.com/snapcore/snapd/dirs @ #5abb3aab6b74
+   │  │  │  │  └─ github.com/snapcore/snapd/release @ #5abb3aab6b74
+   │  │  │  │     └─ github.com/snapcore/snapd/strutil @ #5abb3aab6b74
+   │  │  │  │        └─ gopkg.in/yaml.v2 @ 2.3.0
+   │  │  │  └─ github.com/godbus/dbus @ #4481cbc300e2
+   │  │  └─ github.com/godbus/dbus @ #4481cbc300e2
+   │  ├─ github.com/snapcore/snapd/timeout @ #5abb3aab6b74
+   │  ├─ github.com/snapcore/snapd/strutil @ #5abb3aab6b74
+   │  │  └─ gopkg.in/yaml.v2 @ 2.3.0
+   │  ├─ github.com/snapcore/snapd/spdx @ #5abb3aab6b74
+   │  ├─ github.com/snapcore/snapd/snap/naming @ #5abb3aab6b74
+   │  │  └─ github.com/snapcore/snapd/snapdenv @ #5abb3aab6b74
+   │  │     ├─ github.com/snapcore/snapd/release @ #5abb3aab6b74
+   │  │     │  └─ github.com/snapcore/snapd/strutil @ #5abb3aab6b74
+   │  │     │     └─ gopkg.in/yaml.v2 @ 2.3.0
+   │  │     ├─ github.com/snapcore/snapd/osutil @ #5abb3aab6b74
+   │  │     │  ├─ gopkg.in/tomb.v2 @ #d5d1b5820637
+   │  │     │  ├─ golang.org/x/sys/unix @ #aa78b53d3365
+   │  │     │  │  └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+   │  │     │  ├─ github.com/snapcore/snapd/strutil @ #5abb3aab6b74
+   │  │     │  │  └─ gopkg.in/yaml.v2 @ 2.3.0
+   │  │     │  ├─ github.com/snapcore/snapd/randutil @ #5abb3aab6b74
+   │  │     │  └─ github.com/snapcore/snapd/osutil/sys @ #5abb3aab6b74
+   │  │     │     └─ golang.org/x/sys/unix @ #aa78b53d3365
+   │  │     │        └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+   │  │     └─ github.com/snapcore/snapd/arch @ #5abb3aab6b74
+   │  │        └─ github.com/snapcore/snapd/osutil @ #5abb3aab6b74
+   │  │           ├─ gopkg.in/tomb.v2 @ #d5d1b5820637
+   │  │           ├─ golang.org/x/sys/unix @ #aa78b53d3365
+   │  │           │  └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+   │  │           ├─ github.com/snapcore/snapd/strutil @ #5abb3aab6b74
+   │  │           │  └─ gopkg.in/yaml.v2 @ 2.3.0
+   │  │           ├─ github.com/snapcore/snapd/randutil @ #5abb3aab6b74
+   │  │           └─ github.com/snapcore/snapd/osutil/sys @ #5abb3aab6b74
+   │  │              └─ golang.org/x/sys/unix @ #aa78b53d3365
+   │  │                 └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+   │  ├─ github.com/snapcore/snapd/sandbox/apparmor @ #5abb3aab6b74
+   │  │  ├─ github.com/snapcore/snapd/strutil @ #5abb3aab6b74
+   │  │  │  └─ gopkg.in/yaml.v2 @ 2.3.0
+   │  │  ├─ github.com/snapcore/snapd/osutil @ #5abb3aab6b74
+   │  │  │  ├─ gopkg.in/tomb.v2 @ #d5d1b5820637
+   │  │  │  ├─ golang.org/x/sys/unix @ #aa78b53d3365
+   │  │  │  │  └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+   │  │  │  ├─ github.com/snapcore/snapd/strutil @ #5abb3aab6b74
+   │  │  │  │  └─ gopkg.in/yaml.v2 @ 2.3.0
+   │  │  │  ├─ github.com/snapcore/snapd/randutil @ #5abb3aab6b74
+   │  │  │  └─ github.com/snapcore/snapd/osutil/sys @ #5abb3aab6b74
+   │  │  │     └─ golang.org/x/sys/unix @ #aa78b53d3365
+   │  │  │        └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+   │  │  └─ github.com/snapcore/snapd/dirs @ #5abb3aab6b74
+   │  │     └─ github.com/snapcore/snapd/release @ #5abb3aab6b74
+   │  │        └─ github.com/snapcore/snapd/strutil @ #5abb3aab6b74
+   │  │           └─ gopkg.in/yaml.v2 @ 2.3.0
+   │  ├─ github.com/snapcore/snapd/osutil/sys @ #5abb3aab6b74
+   │  │  └─ golang.org/x/sys/unix @ #aa78b53d3365
+   │  │     └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+   │  ├─ github.com/snapcore/snapd/osutil @ #5abb3aab6b74
+   │  │  ├─ gopkg.in/tomb.v2 @ #d5d1b5820637
+   │  │  ├─ golang.org/x/sys/unix @ #aa78b53d3365
+   │  │  │  └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+   │  │  ├─ github.com/snapcore/snapd/strutil @ #5abb3aab6b74
+   │  │  │  └─ gopkg.in/yaml.v2 @ 2.3.0
+   │  │  ├─ github.com/snapcore/snapd/randutil @ #5abb3aab6b74
+   │  │  └─ github.com/snapcore/snapd/osutil/sys @ #5abb3aab6b74
+   │  │     └─ golang.org/x/sys/unix @ #aa78b53d3365
+   │  │        └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+   │  ├─ github.com/snapcore/snapd/metautil @ #5abb3aab6b74
+   │  ├─ github.com/snapcore/snapd/logger @ #5abb3aab6b74
+   │  │  └─ github.com/snapcore/snapd/osutil @ #5abb3aab6b74
+   │  │     ├─ gopkg.in/tomb.v2 @ #d5d1b5820637
+   │  │     ├─ golang.org/x/sys/unix @ #aa78b53d3365
+   │  │     │  └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+   │  │     ├─ github.com/snapcore/snapd/strutil @ #5abb3aab6b74
+   │  │     │  └─ gopkg.in/yaml.v2 @ 2.3.0
+   │  │     ├─ github.com/snapcore/snapd/randutil @ #5abb3aab6b74
+   │  │     └─ github.com/snapcore/snapd/osutil/sys @ #5abb3aab6b74
+   │  │        └─ golang.org/x/sys/unix @ #aa78b53d3365
+   │  │           └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+   │  ├─ github.com/snapcore/snapd/dirs @ #5abb3aab6b74
+   │  │  └─ github.com/snapcore/snapd/release @ #5abb3aab6b74
+   │  │     └─ github.com/snapcore/snapd/strutil @ #5abb3aab6b74
+   │  │        └─ gopkg.in/yaml.v2 @ 2.3.0
+   │  └─ github.com/snapcore/snapd/asserts @ #5abb3aab6b74
+   │     ├─ golang.org/x/crypto/sha3 @ #75b288015ac9
+   │     ├─ golang.org/x/crypto/openpgp/packet @ #75b288015ac9
+   │     │  ├─ golang.org/x/crypto/openpgp/s2k @ #75b288015ac9
+   │     │  │  └─ golang.org/x/crypto/openpgp/errors @ #75b288015ac9
+   │     │  ├─ golang.org/x/crypto/openpgp/errors @ #75b288015ac9
+   │     │  ├─ golang.org/x/crypto/openpgp/elgamal @ #75b288015ac9
+   │     │  └─ golang.org/x/crypto/cast5 @ #75b288015ac9
+   │     ├─ github.com/snapcore/snapd/strutil @ #5abb3aab6b74
+   │     │  └─ gopkg.in/yaml.v2 @ 2.3.0
+   │     ├─ github.com/snapcore/snapd/snap/naming @ #5abb3aab6b74
+   │     │  └─ github.com/snapcore/snapd/snapdenv @ #5abb3aab6b74
+   │     │     ├─ github.com/snapcore/snapd/release @ #5abb3aab6b74
+   │     │     │  └─ github.com/snapcore/snapd/strutil @ #5abb3aab6b74
+   │     │     │     └─ gopkg.in/yaml.v2 @ 2.3.0
+   │     │     ├─ github.com/snapcore/snapd/osutil @ #5abb3aab6b74
+   │     │     │  ├─ gopkg.in/tomb.v2 @ #d5d1b5820637
+   │     │     │  ├─ golang.org/x/sys/unix @ #aa78b53d3365
+   │     │     │  │  └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+   │     │     │  ├─ github.com/snapcore/snapd/strutil @ #5abb3aab6b74
+   │     │     │  │  └─ gopkg.in/yaml.v2 @ 2.3.0
+   │     │     │  ├─ github.com/snapcore/snapd/randutil @ #5abb3aab6b74
+   │     │     │  └─ github.com/snapcore/snapd/osutil/sys @ #5abb3aab6b74
+   │     │     │     └─ golang.org/x/sys/unix @ #aa78b53d3365
+   │     │     │        └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+   │     │     └─ github.com/snapcore/snapd/arch @ #5abb3aab6b74
+   │     │        └─ github.com/snapcore/snapd/osutil @ #5abb3aab6b74
+   │     │           ├─ gopkg.in/tomb.v2 @ #d5d1b5820637
+   │     │           ├─ golang.org/x/sys/unix @ #aa78b53d3365
+   │     │           │  └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+   │     │           ├─ github.com/snapcore/snapd/strutil @ #5abb3aab6b74
+   │     │           │  └─ gopkg.in/yaml.v2 @ 2.3.0
+   │     │           ├─ github.com/snapcore/snapd/randutil @ #5abb3aab6b74
+   │     │           └─ github.com/snapcore/snapd/osutil/sys @ #5abb3aab6b74
+   │     │              └─ golang.org/x/sys/unix @ #aa78b53d3365
+   │     │                 └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+   │     ├─ github.com/snapcore/snapd/snap/channel @ #5abb3aab6b74
+   │     │  ├─ github.com/snapcore/snapd/strutil @ #5abb3aab6b74
+   │     │  │  └─ gopkg.in/yaml.v2 @ 2.3.0
+   │     │  └─ github.com/snapcore/snapd/arch @ #5abb3aab6b74
+   │     │     └─ github.com/snapcore/snapd/osutil @ #5abb3aab6b74
+   │     │        ├─ gopkg.in/tomb.v2 @ #d5d1b5820637
+   │     │        ├─ golang.org/x/sys/unix @ #aa78b53d3365
+   │     │        │  └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+   │     │        ├─ github.com/snapcore/snapd/strutil @ #5abb3aab6b74
+   │     │        │  └─ gopkg.in/yaml.v2 @ 2.3.0
+   │     │        ├─ github.com/snapcore/snapd/randutil @ #5abb3aab6b74
+   │     │        └─ github.com/snapcore/snapd/osutil/sys @ #5abb3aab6b74
+   │     │           └─ golang.org/x/sys/unix @ #aa78b53d3365
+   │     │              └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+   │     ├─ github.com/snapcore/snapd/release @ #5abb3aab6b74
+   │     │  └─ github.com/snapcore/snapd/strutil @ #5abb3aab6b74
+   │     │     └─ gopkg.in/yaml.v2 @ 2.3.0
+   │     ├─ github.com/snapcore/snapd/osutil @ #5abb3aab6b74
+   │     │  ├─ gopkg.in/tomb.v2 @ #d5d1b5820637
+   │     │  ├─ golang.org/x/sys/unix @ #aa78b53d3365
+   │     │  │  └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+   │     │  ├─ github.com/snapcore/snapd/strutil @ #5abb3aab6b74
+   │     │  │  └─ gopkg.in/yaml.v2 @ 2.3.0
+   │     │  ├─ github.com/snapcore/snapd/randutil @ #5abb3aab6b74
+   │     │  └─ github.com/snapcore/snapd/osutil/sys @ #5abb3aab6b74
+   │     │     └─ golang.org/x/sys/unix @ #aa78b53d3365
+   │     │        └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+   │     └─ github.com/snapcore/snapd/asserts/internal @ #5abb3aab6b74
+   └─ github.com/gin-gonic/gin @ 1.7.7
+      ├─ github.com/mattn/go-isatty @ 0.0.12
+      │  └─ golang.org/x/sys/unix @ #aa78b53d3365
+      │     └─ golang.org/x/sys/internal/unsafeheader @ #aa78b53d3365
+      ├─ github.com/gin-gonic/gin/render @ 1.7.7
+      │  ├─ gopkg.in/yaml.v2 @ 2.3.0
+      │  ├─ github.com/ugorji/go/codec @ 1.1.7
+      │  ├─ github.com/golang/protobuf/proto @ 1.3.3
+      │  ├─ github.com/gin-gonic/gin/internal/json @ 1.7.7
+      │  └─ github.com/gin-gonic/gin/internal/bytesconv @ 1.7.7
+      ├─ github.com/gin-gonic/gin/internal/json @ 1.7.7
+      ├─ github.com/gin-gonic/gin/internal/bytesconv @ 1.7.7
+      ├─ github.com/gin-gonic/gin/binding @ 1.7.7
+      │  ├─ gopkg.in/yaml.v2 @ 2.3.0
+      │  ├─ github.com/ugorji/go/codec @ 1.1.7
+      │  ├─ github.com/golang/protobuf/proto @ 1.3.3
+      │  ├─ github.com/go-playground/validator/v10 @ 10.4.1
+      │  │  ├─ golang.org/x/crypto/sha3 @ #75b288015ac9
+      │  │  ├─ github.com/leodido/go-urn @ 1.2.0
+      │  │  └─ github.com/go-playground/universal-translator @ 0.17.0
+      │  │     └─ github.com/go-playground/locales @ 0.13.0
+      │  │        └─ github.com/go-playground/locales/currency @ 0.13.0
+      │  ├─ github.com/gin-gonic/gin/internal/json @ 1.7.7
+      │  └─ github.com/gin-gonic/gin/internal/bytesconv @ 1.7.7
+      └─ github.com/gin-contrib/sse @ 0.1.0
+
+Testing /Users/joshua/Documents/Git/go-goof...
+
+✗ Medium severity vulnerability found in golang.org/x/text/internal/language
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-GOLANG-GOLANGORGXTEXTINTERNALLANGUAGE-2400718
+  Introduced through: rsc.io/quote@1.5.2
+  From: rsc.io/quote@1.5.2 > rsc.io/sampler@1.3.0 > golang.org/x/text/language@0.3.2 > golang.org/x/text/internal/language@0.3.2
+  From: rsc.io/quote@1.5.2 > rsc.io/sampler@1.3.0 > golang.org/x/text/language@0.3.2 > golang.org/x/text/internal/language/compact@0.3.2 > golang.org/x/text/internal/language@0.3.2
+  Fixed in: 0.3.7
+
+
+
+Organization:      joshua.woods
+Package manager:   gomodules
+Target file:       go.mod
+Project name:      go-goof
+Open source:       no
+Project path:      /Users/joshua/Documents/Git/go-goof
+Licenses:          enabled
+
+Tested 54 dependencies for known issues, found 1 issue, 2 vulnerable paths.
+
+
