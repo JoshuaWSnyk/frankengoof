@@ -51,7 +51,7 @@ jobs:
           # This is where you will need to introduce the Snyk API token created with your Snyk account
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       - name: Auth token
-        run: snyk config set api=$SNYK_TOKEN
+        run: snyk config set api=$SNYK_TOKEN; snyk config set org=joshua.woods
         
       - name: Snyk ignore test
-        run: snyk ignore --id="SNYK-NOT-REAL" --reason="Because I can" --expiry="2025-12-31" || true
+        run: snyk ignore --id="SNYK-NOT-REAL" --reason="Because I can" --expiry="2025-12-31"
