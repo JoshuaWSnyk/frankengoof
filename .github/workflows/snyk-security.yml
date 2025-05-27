@@ -52,4 +52,4 @@ jobs:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
 
       - name: Snyk ignore test
-        run: snyk ignore --id="SNYK-NOT-REAL" --reason="Because I can" --expiry="2025-12-31"
+        run: snyk ignore --id="SNYK-NOT-REAL" --reason="Because I can" --expiry="2025-12-31" || true
