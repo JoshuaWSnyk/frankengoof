@@ -37,6 +37,7 @@ jobs:
     environment: base
     env:   
       SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+      SNYK_IGNORE_ARGS: '--id="SNYK-NOT-REAL" --reason="Because I can" --expiry="2025-12-31"'
     
     steps:
       - uses: actions/checkout@v4
@@ -53,4 +54,4 @@ jobs:
         
       - name: Snyk ignore test
         run: |
-          snyk ignore --id="SNYK-NOT-REAL" --reason="Because I can" --expiry="2025-12-31" --debug
+          snyk ignore $SNYK_IGNORE_ARGS
