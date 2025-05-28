@@ -45,7 +45,8 @@ jobs:
         uses: snyk/actions/setup@master
 
       - name: Confirm token works
-        run: curl --header "Authorization: token $SNYK_TOKEN" --url "https://api.snyk.io/rest/self?version=2024-10-15"
+        run: |
+          curl --header "Authorization: token $SNYK_TOKEN" --url "https://api.snyk.io/rest/self?version=2024-10-15"
         
       - name: Snyk ignore test
         run: snyk ignore --id="SNYK-NOT-REAL" --reason="Because I can" --expiry="2025-12-31" --debug
