@@ -53,4 +53,4 @@ jobs:
         
       - name: Snyk ignore test
         run: |
-          snyk ignore --id=SNYK-NOT-REAL --reason='Because I can' --expiry='2025-12-31' --debug
+          "snyk ignore --id=SNYK-NOT-REAL --reason='Because I can' --expiry='2025-12-31' --debug"
