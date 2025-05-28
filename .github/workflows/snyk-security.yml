@@ -45,6 +45,8 @@ jobs:
         uses: snyk/actions/setup@master
 
       - name: Confirm token works
+        env:   
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         run: |
           curl --header "Authorization: token $SNYK_TOKEN" --url "https://api.snyk.io/rest/self?version=2024-10-15"
         
