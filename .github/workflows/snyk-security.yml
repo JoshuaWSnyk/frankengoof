@@ -41,6 +41,9 @@ jobs:
         # Snyk can be used to break the build when it detects security issues.
         # In this case we want to upload the SAST issues to GitHub Code Scanning
         uses: snyk/actions/setup@master
+
+      - name: Snyk version
+        run: echo "${{ steps.snyk.outputs.version }}"
         
       - name: Snyk ignore test
         run: snyk ignore --id="SNYK-NOT-REAL" --reason="Because I can" --expiry="2025-12-31" --debug
