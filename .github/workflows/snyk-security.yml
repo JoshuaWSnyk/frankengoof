@@ -46,7 +46,7 @@ jobs:
 
       - name: Confirm token works
         run: |
-          env; curl --header "Authorization: token $SNYK_TOKEN" --url "https://api.snyk.io/rest/self?version=2024-10-15"
+          curl --header "Authorization: token $SNYK_TOKEN" --url "https://api.snyk.io/rest/self?version=2024-10-15"
         
       - name: Snyk ignore test
         run: |
