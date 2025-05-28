@@ -25,7 +25,7 @@ on:
     branches: ["main"]
 
 permissions:
-  contents: read, write
+  contents: write
 
 jobs:
   snyk:
