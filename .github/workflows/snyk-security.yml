@@ -50,5 +50,5 @@ jobs:
         env:   
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         run: |
-          echo "Opening branch is ${{ github.ref }}"
+          echo "Opening branch is ${{ github.base_ref }}"
           curl --header "Authorization: token $SNYK_TOKEN" --url "https://api.snyk.io/rest/self?version=2024-10-15"
